@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+    </head>
+    <body>
+        <form action="">
+           <fieldset>
+               <legend>Name and Gender</legend>
+            <label for="fname">FirstName</label>
+            <br>
+            <input type="text" name="fname" id="fname">
+            <br>
+            <label for="sname">SecondName</label>
+            <br>
+            <input type="text" name="sname" id="sname">
+            <br>
+            <label for="gender">Gender</label>
+            <br>
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="Female">Female
+           </fieldset>
+           <fieldset>
+               <legend>Timing and Age</legend>
+               <label for="time">Workout Time(5 to 8 Am or Pm)</label>
+               <input type="time" id="time" min="5" max="8">
+               <br><br>
+               <label for="age">What is Your Age</label>
+               <input type="number" id="age" min="18" max="50" value="date/month/year" >
+           </fieldset>
+           <fieldset>
+               <legend>Joining Information</legend>
+               <label for="date">Which Date you are joing</label>
+               <input type="date" id="date">
+           </fieldset>
+        </form>
+    </body>
+</html>
